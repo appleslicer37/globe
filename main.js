@@ -13,7 +13,7 @@ document.body.appendChild(renderer.domElement);
 // Create a sphere mesh
 const radius = 5;
 const sphere = new THREE.Mesh(
-  new THREE.SphereGeometry(radius,globe0, 50),te
+  new THREE.SphereGeometry(radius, 50, 50),
   new THREE.MeshBasicMaterial({
     map: new THREE.TextureLoader().load('texture.jpg'),
   })
