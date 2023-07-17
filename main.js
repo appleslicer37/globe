@@ -1,6 +1,6 @@
 // main.js
 
-import * as THREE from 'three';
+import * as THREE from './node_modules/three/build/three.module.js'
 import { OrbitControls } from './OrbitControls.js';
 
 // Create the scene, camera, and renderer
@@ -17,7 +17,7 @@ const sphere = new THREE.Mesh(
   new THREE.MeshBasicMaterial({
     map: new THREE.TextureLoader().load('texture.jpg'),
   })
-);
+);  
 scene.add(sphere);
 
 // Add orbit controls for camera manipulation
