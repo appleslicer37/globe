@@ -1,6 +1,6 @@
 // main.js
 
-import * as THREE from 'https://appleslicer37.github.io/three.module.js';
+import * as THREE from 'three';
 import { OrbitControls } from './OrbitControls.js';
 
 // Create the scene, camera, and renderer
