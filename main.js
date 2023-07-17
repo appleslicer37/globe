@@ -1,6 +1,7 @@
 // main.js
 
-import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.127.0/build/three.module.js';
+
 import { OrbitControls } from './OrbitControls.js';
 
 // Create the scene, camera, and renderer
