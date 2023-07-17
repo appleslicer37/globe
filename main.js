@@ -1,7 +1,7 @@
 // main.js
 
 import * as THREE from 'three';
-import { OrbitControls } from './OrbitControls.js';
+import { OrbitControls } from '/globe/OrbitControls.js';
 
 // Create the scene, camera, and renderer
 const scene = new THREE.Scene();
@@ -13,7 +13,7 @@ document.body.appendChild(renderer.domElement);
 // Create a sphere mesh
 const radius = 5;
 const sphere = new THREE.Mesh(
-  new THREE.SphereGeometry(radius, 50, 50),
+  new THREE.SphereGeometry(radius,globe0, 50),te
   new THREE.MeshBasicMaterial({
     map: new THREE.TextureLoader().load('texture.jpg'),
   })
