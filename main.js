@@ -2,6 +2,7 @@
 
 import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
 import { OrbitControls } from './OrbitControls.js';
+const canvas = document.querySelector('canvas.webgl')
 
 // Create the scene, camera, and renderer
 const scene = new THREE.Scene();
